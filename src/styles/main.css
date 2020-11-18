@@ -520,9 +520,11 @@ ProGas Forms Footer Styles
 }
 
 @media only screen and (max-width: 900px) {
+
   .thanks-note {
     margin-top: 2rem !important;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    text-align: center !important;
   }
 
   h1.thanks-heading {
@@ -649,6 +651,7 @@ ProGas Forms Footer Styles
 
 .thanks-note {
   margin-top: 6rem;
+  text-align: justify;
 }
 
 .progaimg {
