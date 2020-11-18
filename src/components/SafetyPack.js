@@ -5,27 +5,26 @@ import safetyImage from '../Gallery/safetyImage.png';
 
 export default function SafetyPack() {
   return (
-    <section className="safe-section mt-5">
+    <section className='safe-section mt-5'>
       <Container>
         <Row>
           <Col>
-            <Image className="protoimg" src={protoImage} fluid />
+            <Image className='protoimg' src={protoImage} fluid />
             <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://protoenergy.com/careers/"
-            >
-              <Button className="form-btn-safe pro-btn safety-button">Visit Our Parent Site</Button>
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://protoenergy.com/careers/'>
+              <Button className='form-btn-safe pro-btn parent-button'>
+                Visit Our Parent Site
+              </Button>
             </a>
           </Col>
           <Col>
-            <Image className="safeimg" src={safetyImage} fluid />
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="#" download
-            >
-              <Button className="form-btn-safe safety-button">Download Safety Pack Info</Button>
+            <Image className='safeimg' src={safetyImage} fluid />
+            <a rel='noopener noreferrer' target='_blank' href='#' download>
+              <Button className='form-btn-safe safety-button'>
+                Download Safety Pack Info
+              </Button>
             </a>
           </Col>
         </Row>

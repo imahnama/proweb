@@ -218,16 +218,14 @@ Gallery Footer Styles
 
 /* Add a dark background to the active button */
 @media (max-width: 768px) {
-  button.safety-button {
-    margin-left: 3rem !important;
-  }
   .img-8 {
     display: none !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  button.safety-button {
+  button.safety-button,
+  button.parent-button {
     width: 170px;
     height: 33px;
     background-color: #1a1d3f;
@@ -310,8 +308,9 @@ Gallery Footer Styles
     width: 330px !important;
   }
 
-  button.safety-button {
-    width: 210px;
+  button.safety-button,
+  button.parent-button {
+    width: 14rem;
   }
 
   p.safety-paragraph {
@@ -375,7 +374,8 @@ Gallery Footer Styles
   height: 350px;
 }
 
-.safety-button {
+.safety-button,
+.parent-button {
   width: 170px;
   height: 33px;
   background-color: #1a1d3f;
@@ -388,7 +388,8 @@ Gallery Footer Styles
   margin-left: 8.5rem !important;
 }
 
-.safety-button a {
+.safety-button a,
+.parent-button a {
   color: white;
   text-decoration: none;
 }
@@ -509,10 +510,30 @@ ProGas Forms Footer Styles
   font-style: normal;
 }
 
+@media only screen and (max-width: 450) {
+  button.parent-button {
+    margin-left: 7rem !important;
+  }
+  button.safety-button {
+    margin-left: 6rem !important;
+  }
+  div.become-pro h1 {
+    margin-left: 5rem !important;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   div.form-container {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
+  }
+
+  button.safety-button {
+    margin-left: 4.2rem !important;
+  }
+
+  button.parent-button {
+    margin-left: 5rem !important;
   }
 
   .media-heading h1 {
