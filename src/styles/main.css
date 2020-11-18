@@ -197,10 +197,6 @@ Social Media Styles
   border-radius: 13px 13px 0px 0px !important;
 }
 
-.instagram-media {
-  border-radius: 13px 13px 0px 0px !important;
-}
-
 .twitter-tweet {
   margin: 0px 0px !important;
   border-radius: 13px 13px 0px 0px !important;
@@ -306,6 +302,7 @@ Gallery Footer Styles
     margin-bottom: 0px !important;
     height: 240px !important;
     width: 330px !important;
+    margin-left: 0.6rem;
   }
 
   button.safety-button,
@@ -523,6 +520,15 @@ ProGas Forms Footer Styles
 }
 
 @media only screen and (max-width: 900px) {
+  .thanks-note {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem
+  }
+
+  h1.thanks-heading {
+    text-align: center;
+    font-size: x-large;
+  }
   div.form-container {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
@@ -551,7 +557,7 @@ ProGas Forms Footer Styles
   div.gallery-head h1 {
     font-size: 25px;
     font-weight: 600;
-    margin-left: 6rem;
+    margin-left: 7.5rem;
     padding-bottom: 1rem;
     margin-top: 0;
   }

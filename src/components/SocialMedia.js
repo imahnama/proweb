@@ -18,7 +18,7 @@ export default function SocialMedia() {
               className='trial'
               style={{ height: '26.7rem', width: '21.5rem' }}>
               <FacebookProvider appId='477221329905639'>
-                <EmbeddedPost href='https://www.facebook.com/AzziadNasenya/posts/2876109055956482' />
+                <EmbeddedPost href='https://www.facebook.com/AzziadNasenya/photos/pcb.2876109055956482/2876108969289824/' />
               </FacebookProvider>
             </Card>
           </Col>
@@ -28,7 +28,6 @@ export default function SocialMedia() {
               className='trial'
               style={{ height: '26.7rem', width: '21.5rem' }}>
               <InstagramEmbed
-                className='instagram-media'
                 url='https://www.instagram.com/p/CF7IzUhAX2b/'
                 clientAccessToken='477221329905639|d62e81419a7bdd07433492b2a2a57e1f'
                 maxWidth={376}

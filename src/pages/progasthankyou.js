@@ -9,7 +9,7 @@ export default function GetProgasThankYouPage() {
       <Container className="get-form">
         <Row className="section-heading">
           <Col>
-            <h1>Become a Pro</h1>
+            <h1 className="thanks-heading">Become a Pro</h1>
           </Col>
         </Row>
 
