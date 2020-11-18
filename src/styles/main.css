@@ -515,7 +515,6 @@ ProGas Forms Footer Styles
     margin-bottom: 3rem !important;
   }
 
-  div.become-pro h1,
   .media-heading h1 {
     font-size: 23px;
   }
@@ -524,6 +523,14 @@ ProGas Forms Footer Styles
     font-size: 25px;
     font-weight: 600;
     margin-left: 4.2rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  div.gallery-head h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 6rem;
     padding-bottom: 1rem;
     margin-top: 0;
   }
@@ -566,13 +573,17 @@ ProGas Forms Footer Styles
 }
 
 .become-pro h1,
-.gallery-section h1 {
+.gallery-head h1 {
   color: var(--clr-pink);
   font-style: normal;
   font-weight: bolder;
   text-transform: uppercase;
   font-family: var(--ff-primary);
   margin-left: 10px;
+}
+
+.gallery-head h1 {
+  margin-top: 1rem;
 }
 
 .model-heading {

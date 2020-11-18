@@ -7,23 +7,23 @@ import GalleryImages from '../constants/gallery';
 export default function Gallery() {
   return (
     <Container>
-      <Row className="become-pro">
+      <Row className='gallery-head'>
         <h1>Gallery</h1>
       </Row>
-      <div className="gallery-section container" id="gallery">
-        <div className="row">
+      <div className='gallery-section container' id='gallery'>
+        <div className='row'>
           {GalleryImages.map((item, index) => {
             return (
-              <div className="col-lg-4 col-md-4 col-6">
-                <div className="d-block mb-4 mt-4 h-100 gallery-img">
+              <div className='col-lg-4 col-md-4 col-6'>
+                <div className='d-block mb-4 mt-4 h-100 gallery-img'>
                   <Image
                     src={item.number}
                     className={`img-${index}`}
                     fluid
                     thumbnail
                   />
-                  <div className="overlay">
-                    <a href={item.number} download className="download-icon">
+                  <div className='overlay'>
+                    <a href={item.number} download className='download-icon'>
                       <HiDownload />
                     </a>
                   </div>
