@@ -129,16 +129,12 @@ Slider Styles
 Social Media Styles
 ===============
 */
-@media (max-width: 767px) {
+@media (min-width: 501px) and (max-width: 767px) {
   div.social-row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 0em;
-  }
-
-  div.social-section {
-    padding-left: 2px !important;
   }
 }
 
@@ -507,15 +503,23 @@ ProGas Forms Footer Styles
   font-style: normal;
 }
 
-@media only screen and (max-width: 450) {
+@media (max-width: 500px) {
+  div.social-section {
+    padding-left: 0.7rem;
+  }
+
+  div.become-pro h1 {
+    margin-left: 5.2rem !important;
+  }
+
   button.parent-button {
     margin-left: 7rem !important;
   }
   button.safety-button {
-    margin-left: 6rem !important;
+    margin-left: 5.6rem !important;
   }
   div.become-pro h1 {
-    margin-left: 5rem !important;
+
   }
 }
 
@@ -537,11 +541,11 @@ ProGas Forms Footer Styles
   }
 
   button.safety-button {
-    margin-left: 4.2rem !important;
+    margin-left: 4.2rem;
   }
 
   button.parent-button {
-    margin-left: 5rem !important;
+    margin-left: 5rem;
   }
 
   .media-heading h1 {
